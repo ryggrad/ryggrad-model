@@ -25,7 +25,7 @@ cat  = Cat.create(name: "Oliver")
 cat2 = Cat.create(name: "Revilo, Clone")
 ~~~~
 
-Find some a cat by name:
+Find a cat by name:
 
 ~~~~coffeescript
 cat = Cat.findWhere(name: "Oliver")
