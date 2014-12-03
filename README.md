@@ -21,7 +21,7 @@ class Cat extends Model
 Then add some cats:
 
 ~~~~coffeescript
-cat = Cat.create(name: "Oliver")
+cat  = Cat.create(name: "Oliver")
 cat2 = Cat.create(name: "Revilo, Clone")
 ~~~~
 
